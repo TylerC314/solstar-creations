@@ -3,7 +3,12 @@
     margin: 0px;
     padding: 0px;
     font-family: Verdana, "Geneva", Tahoma, sans-serif;
-    font-size: 14px;
+    font-size: 62.5%;
+}
+
+body {
+    background: url("drum-pictures/tree-drum.jpg");
+    background-size: cover;
 }
 
 html, body {
@@ -14,11 +19,11 @@ html, body {
 .title-bar {
     width: 100%;
     height: 8%;
-    border: 1px solid black;
+    border: .1rem solid black;
     display: flex;
     align-content: center;
     justify-content: center;
-    background-color: blue;
+    background-color: rgb(240, 130, 0);
 }
 .title-bar > header {
     text-align: center;
@@ -27,26 +32,21 @@ html, body {
 }
 
 h1 {
-    color: white;
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 
-/* nav {
-    border: solid black 1px;
-    position: fixed;
+nav {
     display: flex;
-    height: 5%;
-    top: 0;
 }
 
 .navbar {
+    width: 100%;
     height: 100%;
     display: flex;
     align-items: space-around;
     background-color: lightgray;
-    font-size: 15px;
-    margin-bottom: 5%;
-} */
+    font-size: 1rem;
+}
 
 .navbar > li {
     width: 25%;
@@ -55,7 +55,7 @@ h1 {
     text-align: center;
     display: flex;
     justify-content: center;
-    border: 1px gray solid;
+    border: .1rem gray solid;
 }
 
 a {
@@ -64,18 +64,52 @@ a {
     color: rgb(255, 230, 0);
     background-color: inherit;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 1.4rem;
 }
 
 .container {
-    margin: 5% auto 0;
-    padding: 0 2%;
+    margin: 5% auto;
+    padding: 5% 5% 0;
     border: solid black 1px;
     width: 95%;
     text-align: center;
     background-color: burlywood;
+    
 }
 
 .container > p {
     margin: 5% 0;
+    line-height: 2;
+    font-size: 1.5rem;
+}
+
+.product-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+}
+
+.product-img {
+    width: 95%;
+    height: 20%;
+    border: .2rem solid white;
+}
+
+.product-description {
+    width: 95%;
+    border: .2rem solid white;
+    margin-bottom: 10%;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+footer > ul > a {
+    margin: 0 2rem;
 }
