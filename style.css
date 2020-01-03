@@ -65,7 +65,7 @@ h1 {
 }
 
 nav {
-    display: flex;
+    display: none;
 }
 
 .navbar {
@@ -150,10 +150,17 @@ footer > ul > a {
 
 /*tablet size */
 @media only screen and (min-width: 768px){
+    nav {
+        display: flex;
+    }
 
     .navbar {
         width: 80%;
         margin: auto;
+    }
+
+    .navbar-toggle {
+        visibility: hidden;
     }
 
     .container {
