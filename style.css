@@ -28,6 +28,10 @@ html, body {
     min-height: 100%;
 }
 
+.in-text-link {
+    color: brown;
+}
+
 .site-bar {
     background-color: var(--title-bar-color);
     width: 100%;
@@ -67,7 +71,7 @@ html, body {
 }
 
 h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     color: var(--title-text-color);
 }
 
@@ -139,7 +143,7 @@ footer > ul > a {
     margin: 0 2rem;
 }
 
-/* Products page styling*/
+/* Product pages styling*/
 
 .product-container {
     display: flex;
