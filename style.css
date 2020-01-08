@@ -7,7 +7,7 @@
     --main-text-color: #634c45;
 }
 
-/* Main styling */
+/* || HTML / Body Styling */
 
 *{
     box-sizing: border-box;
@@ -17,20 +17,18 @@
     font-size: 62.5%;
 }
 
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
 body {
     background: var(--main-bg-color);
     background-size: cover;
-}
-
-html, body {
-    width: 100%;
-    height: 10%;
     min-height: 100%;
 }
 
-.in-text-link {
-    color: brown;
-}
+/* || Title Bar Styling */
 
 .site-bar {
     background-color: var(--title-bar-color);
@@ -75,6 +73,8 @@ h1 {
     color: var(--title-text-color);
 }
 
+/* || Navbar Styling */
+
 nav {
     display: none;
 }
@@ -100,6 +100,8 @@ nav {
     border: .1rem gray solid;
 }
 
+/* || Link Styling */
+
 a {
     width: 100%;
     margin: auto;
@@ -113,12 +115,14 @@ a:hover {
     text-decoration: underline;
 }
 
+/* || Main container styling */
+
 .container {
     margin: 0 auto 5%;
-    padding: 5% 5% 5%;
     border: solid black 1px;
     width: 100%;
     max-width: 1024px;
+    min-height: 85%;
     text-align: center;
     background-color: var(--main-containter-bg-color);
     color: var(--main-text-color);
@@ -130,6 +134,8 @@ a:hover {
     line-height: 2;
     font-size: 1.5rem;
 }
+
+/* || Footer Styling */
 
 footer {
     width: 100%;
@@ -143,31 +149,42 @@ footer > ul > a {
     margin: 0 2rem;
 }
 
+/* || Product Styling */
+
 .product-container {
-    display: grid;
-    grid-template-columns: 1fr 5fr 1fr;
-    font-size: 2rem;
+    display: flex;
+    font-size: 3rem;
     text-align: left;
-    background-color: var(--title-text-color);
     grid-gap: .5rem;
-    border: solid var(--title-text-color) .5rem;
+    border: solid var(--title-text-color) .1rem;
 }
 
 .product-img {
-    width: 100%;
-    height: 25rem;
+    width: 50%;
+    height: 15rem;
     grid-column: 1 / 4;
 }
 
-.product-description {
-    padding: 3%;
-    background-color: var(--main-containter-bg-color);
-    grid-column: 1 / 3;
+.description-pricing-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1%;
 }
 
-.product-pricing {
-    background-color: var(--main-containter-bg-color);
-    grid-column: 3;
+.pricing-container {
+    font-size: inherit;
+}
+
+/* || Utility Styling */
+
+.in-text-link {
+    color: brown;
+}
+
+.pricing-text {
+    color: red;
+    font-weight: bolder;
 }
 
 /*tablet size */
