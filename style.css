@@ -143,27 +143,6 @@ footer > ul > a {
     margin: 0 2rem;
 }
 
-/* Product pages styling*/
-
-/* .product-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: left;
-    width: 100%;
-} */
-
-/* .product-img, .product-description {
-    width: 95%;
-    height: 20rem;
-    border: .2rem solid white;
-}
-
-.product-description {
-    padding: 1rem 2rem;
-    font-size: 1.5rem;
-} */
-
 .product-container {
     display: grid;
     grid-template-columns: 1fr 5fr 1fr;
