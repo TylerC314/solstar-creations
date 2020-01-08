@@ -170,8 +170,8 @@ footer > ul > a {
     font-size: 2rem;
     text-align: left;
     background-color: var(--title-text-color);
-    grid-gap: .2rem;
-    border: solid var(--title-text-color) .1rem;
+    grid-gap: .5rem;
+    border: solid var(--title-text-color) .5rem;
 }
 
 .product-img {
