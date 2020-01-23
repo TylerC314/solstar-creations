@@ -1,0 +1,14 @@
+[
+    {
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non.",
+        "price": "39.99",
+        "imgSrc": "drumstick-pictures/drumstick-regular-compressed.jpg",
+        "alt": ""
+    },
+    {
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non.",
+        "price": "39.99",
+        "imgSrc": "drumstick-pictures/drumstick-snake-compressed.jpg",
+        "alt": ""
+    }
+]

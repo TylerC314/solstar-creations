@@ -1,0 +1,20 @@
+[
+    {
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non.",
+        "price": "39.99",
+        "imgSrc": "drum-pictures/fox-drum-compressed.jpg",
+        "alt": ""
+    },
+    {
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non.",
+        "price": "39.99",
+        "imgSrc": "drum-pictures/tree-drum-compressed.jpg",
+        "alt": ""
+    },
+    {
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non.",
+        "price": "39.99",
+        "imgSrc": "drum-pictures/yellow-drum-compressed.jpg",
+        "alt": ""
+    }
+]
