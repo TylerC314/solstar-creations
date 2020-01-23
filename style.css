@@ -225,6 +225,7 @@ footer > ul > a {
 
     .description-pricing-container {
         width: 70%;
+        flex-direction: row;
     }
 }
 
