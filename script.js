@@ -16,8 +16,8 @@ function displayProduct(productType) {
             <div class="description-pricing-container">
                 <p class="product-description">${elem.description}</p>
                 <div class="pricing-container">
-                    <p class="product-pricing pricing-text">${elem.price}</p>
-                    <p>Pricing includes paypal fees and shipping</p>
+                    <p class="product-pricing pricing-text">$${elem.price}</p>
+                    <p>Pricing does not include shipping and handling fees</p>
                 </div>
             </div>
         </div>
