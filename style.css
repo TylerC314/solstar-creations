@@ -69,7 +69,7 @@ body {
 }
 
 h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: var(--title-text-color);
     font-family: 'Lobster', cursive;
 }
@@ -87,6 +87,8 @@ nav {
     flex-direction: column;
 }
 
+
+
 .navbar > li {
     width: 100%;
     height: 2rem;
@@ -96,7 +98,12 @@ nav {
     text-align: left;
     display: flex;
     justify-content: left;
-    border: .1rem solid var(--title-text-color);
+    border: solid black;
+    border-width: 0px 1px 1px 1px;
+}
+
+.navbar > li:nth-child(1) {
+    border-top: 1px solid black;
 }
 
 /* || Link Styling */
@@ -119,20 +126,18 @@ a:hover {
 .container {
     margin: 0 auto 2%;
     padding: 2%;
-    border: solid black 1px;
     width: 100%;
     max-width: 768px;
     min-height: 85%;
     text-align: left;
     background-color: var(--main-containter-bg-color);
     color: var(--main-text-color);
-    
+    font-size: .8rem;
 }
 
 .container > p {
     margin: 5% 0;
     line-height: 2;
-    font-size: .5rem;
 }
 
 /* || Footer Styling */
@@ -188,10 +193,15 @@ footer > ul > a > i {
 
 .product-container {
     display: flex;
-    font-size: .5rem;
+    font-size: .8rem;
     text-align: left;
-    border: solid var(--title-text-color) .1rem;
+    border: solid var(--title-text-color);
+    border-width: 0px 2px 2px 2px;
     font-family: Verdana, "Geneva", Tahoma, sans-serif;
+}
+
+.product-container:nth-child(1) {
+    border-top: 2px solid var(--title-text-color);
 }
 
 .product-img {
@@ -214,6 +224,7 @@ footer > ul > a > i {
 
 .in-text-link {
     color: brown;
+    font-size: .5rem;
 }
 
 .pricing-text {
@@ -247,6 +258,11 @@ footer > ul > a > i {
     .navbar > li {
         height: 1.8rem;
         text-align: center;
+        border-width: 1px 1px 1px 0px;
+    }
+
+    .navbar > li:nth-child(1) {
+        border-left: 1px solid black;
     }
 
     .navbar > li > a {
@@ -259,11 +275,15 @@ footer > ul > a > i {
 
     .container {
         width: 60%;
-        font-size: .5rem;
+        font-size: .65rem;
+    }
+
+    .product-container {
+        font-size: .65rem;
     }
 
     .product-img {
-        width: 30%;
+        width: 40%;
     }
 
     .description-pricing-container {
